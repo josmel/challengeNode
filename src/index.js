@@ -19,9 +19,9 @@ app.get('/:user', (req, res, next) => {
         const response = array1.findIndex(isLargeNumber);
 
         if (response > -1) {
-            resolve("usuario encontrado");
+            resolve("user  found ");
         } else {
-            reject("usuario no encontrado");
+            reject("user not found ");
         }
     });
 
